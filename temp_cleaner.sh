@@ -6,4 +6,4 @@ DAYS=7
 
 echo "Cleaning up files in $DIR older than $DAYS days..."
 find $DIR -type f -mtime +$DAYS -exec rm -f {} \;
-echo "Cleanup complete."
+echo "Cleanup completed."
