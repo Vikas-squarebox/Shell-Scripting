@@ -2,6 +2,7 @@
 #clean temporary files older than a specified number of days
 #owner: Vikas/Devops
 #version: v0.0.1
+#AI is not included.
 
 DIR="/tmp"
 DAYS=7
